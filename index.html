@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li><a href="#!">Contacts</a></li>
+          <li><a href="#!">About me</a></li>
+          <li><a href="#!">Skills</a></li>
+          <li><a href="#!">My Code</a></li>
+          <li><a href="#!">Experience</a></li>
+          <li><a href="#!">Education</a></li>
+        </ul>
+      </nav>
+      <section class="avatar">
+        <img src="img/avatar1.png" width="150" alt="avatar">
+        <h1 class="avatar-title">Olga Kel</h1>
+      </section>
+    </header>
+
+    <main class="main">
+      <aside class="aside flex-col">
+        <section class="contacts aside-section">
+          <h2 class="title">Contacts</h2>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <a href="mailto:nikkelos@ya.ru">
+                <svg width="20" height="20">
+                  <use href="/img/solid.svg#envelope"></use>
+                </svg>
+                <span>nikkelos@ya.ru</span>
+              </a>
+            </li>
+            <li class="contacts-item">
+              <a href="tel:+79776195925">
+                <svg width="20" height="20">
+                  <use href="/img/solid.svg#phone-volume"></use>
+                </svg>
+                <span>+79776195925</span>
+              </a>
+            </li>
+            <li class="contacts-item">
+              <a href="https://github.com/OlgaKel">
+                <svg width="20" height="20">
+                  <use href="/img/brands.svg#github"></use>
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="skills aside-section">
+          <h2 class="title">Skills</h2>
+          <ul class="skills-list">
+            <li>
+              <svg width="20" height="20">
+                <use href="/img/brands.svg#html5"></use>
+              </svg>
+              <span>HTML</span>
+            </li>
+            <li>
+              <svg width="20" height="20">
+                <use href="/img/brands.svg#css3-alt"></use>
+              </svg>
+              <span>CSS</span>
+            </li>
+            <li>
+              <svg width="20" height="20">
+                <use href="/img/brands.svg#js"></use>
+              </svg>
+              <span>JavaScript</span>
+            </li>
+            <li>
+              <svg width="20" height="20">
+                <use href="/img/brands.svg#github"></use>
+              </svg>
+              <span>GitHub</span>
+            </li>
+            <li>
+              <svg width="20" height="20">
+                <use href="/img/brands.svg#gulp"></use>
+              </svg>
+              <span>Gulp</span>
+            </li>
+            <li>
+              <svg width="20" height="20">
+                <use href="/img/brands.svg#react"></use>
+              </svg>
+              <span>React</span>
+            </li>
+          </ul>
+        </section>
+        <section class="language aside-section">
+          <h2 class="title">language</h2>
+          <ul class="language-list">
+            <li>English <span>Pre-Intermediate</span></li>
+          </ul>
+        </section>
+      </aside>
+      <div class="article-wrapper flex-col">
+        <section class="about">
+          <h2 class="title">About me</h2>
+          <p>I like to develop interesting products and explore new technologies in the field of the web.I have been
+            studying web development for two years now, and I have completed several training courses. I plan to further
+            improve my professional skills.
+          </p>
+        </section>
+        <section class="experience">
+          <h2 class="title">Experience</h2>
+          <div class="experience-item">
+            <div class="experience-wrap">
+              <p class="experience-name">Project <a href="https://olgakel.github.io/goodlyfe/"
+                  target="_blank">Goodlyfe</a></p>
+              <p class="experience-text">The following technologies were used in this project:
+                HTML,CSS,Gulp,Pug,SASS,JavaScript</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-wrap">
+              <p class="experience-name">Project <a href="https://olgakel.github.io/attestacia/"
+                  target="_blank">Holiday</a></p>
+              <p class="experience-text">The following technologies were used in this project:
+                HTML,CSS,Bootstrap</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-wrap">
+              <p class="experience-name">Project <a href="https://olgakel.github.io/rsschool-cv/" target="_blank">CV</a>
+              </p>
+              <p class="experience-text">The following technologies were used in this project:
+                HTML,CSS</p>
+            </div>
+          </div>
+        </section>
+        <section class="education">
+          <h2 class="title">Education</h2>
+          <div class="education-item">
+            <div class="education-name">
+              <p>ANPOO University
+                of Professional Education</p>
+              <p>2022</p>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-name">
+              <p>HTML Academy </p>
+              <p>2023</p>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-name">
+              <p>RSSchool</p>
+              <p>2024</p>
+            </div>
+          </div>
+        </section>
+        <section class="code">
+          <h2 class="title">My Code</h2>
+          <pre><code>
+            let arr=[
+                     [2,1,4,3,5],
+                     [3,5,2,4,1],
+                     [4,3,1,5,2],
+                     ];
+
+            let res;
+
+            for(let elem of arr){
+            res = elem.sort();
+            console.log(res)
+            }
+         </code></pre>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>@ 2024 CV. All rights reserved</p>
+      <a href="https://github.com/OlgaKel">
+        <img src="img/avatar.webp" width="100" alt="avatar">
+      </a>
+      <a href=https://rs.school/courses/javascript-ru>
+        <img src="img/icon_rs.png" width="100" alt="Логотип курса"> </a>
+    </footer>
+  </div>
+</body>
+
+</html>
