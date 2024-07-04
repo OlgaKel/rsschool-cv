@@ -47,8 +47,10 @@ ul{
   margin-bottom: 30px;
   text-align: center;
 }
-
-/* =====main======*/
+.avatar img{
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
 .main{
   display: flex;
 }
