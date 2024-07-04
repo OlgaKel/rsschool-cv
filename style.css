@@ -29,7 +29,7 @@ ul{
   max-width: 1440px;
 }
 
-.header-list{ 
+.header-list {
   padding: 20px;
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@ ul{
   color: black;
 }
 
-.header-list a + a{
+.header-list li + li{
   margin-left: 20px;
 }
 .header-list a:hover{
